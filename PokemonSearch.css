@@ -1,0 +1,28 @@
+.pokemon-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-form {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .search-form input {
+    margin-right: 0.5rem;
+  }
+  
+  .search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+  }
+  
