@@ -1,14 +1,13 @@
 .pokemon-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .pokemon-details .pokemon-image {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px; /* Set the margin to a value equal to the width of the stats-container */
+  float: left; /* Float the image to the left */
 }
 
 .pokemon-details h2 {
@@ -25,20 +24,21 @@
   font-size: 1.5rem;
 }
 
-.stats-container,
+.stats-container {
+  float: left; /* Float the container to the left */
+  background-color: #f8bbd0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  margin: 0.25rem;
+  color : black;
+}
+
 .abilities-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 1rem;
-}
-
-.stats, .abilities {
-  background-color: #f8bbd0;
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem;
-  margin: 0.25rem;
 }
 
 .types {
@@ -68,3 +68,19 @@
   }
 }
 
+.pokemon-details .h2 {
+  color : green;
+}
+
+.add-team-button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
