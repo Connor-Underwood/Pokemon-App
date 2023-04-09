@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import PokemonDetails from './PokemonDetails';
 import PokemonTeam from './PokemonTeam';
+import './PokemonSearch.css';
 
 const PokemonSearch = () => {
     const [searchTerm, setSearchTerm] = useState('');
